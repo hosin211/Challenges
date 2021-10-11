@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37">
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="18.5" cy="18.5" r="18.5" fill="#fafafa"
+        opacity="0.033" />
+    <path id="messenger" d="M0,8.361a8.129,8.129,0,0,0,3.364,6.51V18.06l3.075-1.687a9.721,9.721,0,0,0,2.59.35c4.987,0,9.03-3.743,9.03-8.361S14.017,0,9.03,0,0,3.743,0,8.361ZM8.077,6.019l2.355,2.452,4.43-2.452L9.926,11.258l-2.3-2.452L3.14,11.259Z"
+        transform="translate(9.471 9.47)" fill="#fff" />
+</svg>
