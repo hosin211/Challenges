@@ -105,7 +105,7 @@ class _SecondHalfState extends State<SecondHalf> {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: const [
               Padding(
-                padding: EdgeInsets.only(left: 13),
+                padding: EdgeInsets.only(left: 0),
                 child: ButtonAndIcon(
                   path: 'lib/assets/svg/support.svg',
                   dis: 'Support',
