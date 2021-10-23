@@ -44,7 +44,7 @@ class MusicList extends StatelessWidget {
                       ),
                     ),
                     Positioned(
-                      top: 1.h,
+                      top: 0.8.h,
                       right: 1.w,
                       child: const SvgIcon(
                         svgpath: 'lib/assets/svg/love.svg',
