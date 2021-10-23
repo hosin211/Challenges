@@ -2,13 +2,14 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:ui_challenge_1/screen/firsthalf.dart';
+import 'package:ui_challenge_1/screen/radiochallenge.dart';
 import 'package:ui_challenge_1/screen/secondhalf.dart';
 
 import 'Widgets/circle_icon.dart';
 import 'Widgets/svg_icon.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const Radioscreen());
 }
 
 class MyApp extends StatefulWidget {
