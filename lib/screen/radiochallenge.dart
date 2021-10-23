@@ -5,7 +5,9 @@ import 'package:sizer/sizer.dart';
 import 'package:ui_challenge_1/Widgets/approw.dart';
 import 'package:ui_challenge_1/Widgets/customtext.dart';
 import 'package:ui_challenge_1/Widgets/musicwidget.dart';
+import 'package:ui_challenge_1/Widgets/player.dart';
 import 'package:ui_challenge_1/Widgets/svg_icon.dart';
+import 'package:ui_challenge_1/Widgets/tabrotoatet.dart';
 
 import 'musiclist.dart';
 
@@ -73,16 +75,7 @@ class _RadioscreenState extends State<Radioscreen> {
                     ),
                   ),
                   const Approw(),
-                  Positioned(
-                    top: 11.h,
-                    left: 26.w,
-                    child: TextCustom(
-                      size: 21.sp,
-                      color: Colors.white,
-                      text: 'Popular',
-                      fontw: FontWeight.w300,
-                    ),
-                  ),
+                  const TabRotatet(),
                   Positioned(
                     bottom: 24.h,
                     left: 6.w,
@@ -92,31 +85,7 @@ class _RadioscreenState extends State<Radioscreen> {
                     ),
                   ),
                   const MusicList(),
-                  Positioned(
-                      right: 5.w,
-                      bottom: 10.h,
-                      child: Container(
-                        width: 68.w,
-                        height: 15.h,
-                        //color: Colors.white,
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                          children: [
-                            SvgIcon(
-                              svgpath: 'lib/assets/svg/back.svg',
-                              size: 30.sp,
-                            ),
-                            SvgIcon(
-                              svgpath: 'lib/assets/svg/play.svg',
-                              size: 80.sp,
-                            ),
-                            SvgIcon(
-                              svgpath: 'lib/assets/svg/forword.svg',
-                              size: 30.sp,
-                            ),
-                          ],
-                        ),
-                      )),
+                  const Player(),
                   Positioned(
                     child: Container(
                       width: 60.w,
