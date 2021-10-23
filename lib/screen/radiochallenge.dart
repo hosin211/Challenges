@@ -41,41 +41,18 @@ class _RadioscreenState extends State<Radioscreen> {
                     width: 19.w,
                     color: Color(0xff080833),
                   ),
+                  TabRotatet(),
+                  const Approw(),
                   Positioned(
-                    top: 19.h,
-                    child: RotatedBox(
-                      quarterTurns: 3,
-                      child: Container(
-                        width: 60.h,
-                        height: 20.w,
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                          children: [
-                            TextCustom(
-                              size: 15.sp,
-                              color: Colors.white,
-                              text: 'Popular',
-                              fontw: FontWeight.w500,
-                            ),
-                            TextCustom(
-                              size: 15.sp,
-                              color: Color(0xff525270),
-                              text: 'Favorites',
-                              fontw: FontWeight.w500,
-                            ),
-                            TextCustom(
-                              size: 15.sp,
-                              color: Color(0xff525270),
-                              text: 'All Stations',
-                              fontw: FontWeight.w500,
-                            ),
-                          ],
-                        ),
-                      ),
+                    top: 11.h,
+                    left: 26.w,
+                    child: TextCustom(
+                      size: 21.sp,
+                      color: Colors.white,
+                      text: 'Popular',
+                      fontw: FontWeight.w300,
                     ),
                   ),
-                  const Approw(),
-                  const TabRotatet(),
                   Positioned(
                     bottom: 24.h,
                     left: 6.w,
