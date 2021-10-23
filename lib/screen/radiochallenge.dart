@@ -54,7 +54,7 @@ class _RadioscreenState extends State<Radioscreen> {
                     ),
                   ),
                   Positioned(
-                    bottom: 24.h,
+                    bottom: 20.h,
                     left: 6.w,
                     child: SvgIcon(
                       svgpath: 'lib/assets/svg/dot.svg',

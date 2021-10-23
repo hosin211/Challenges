@@ -33,7 +33,7 @@ class Music extends StatelessWidget {
             ),
           ),
           Positioned(
-            top: 18,
+            top: 3.7.h,
             left: 25,
             child: TextCustom(
               size: 24.sp,
@@ -43,7 +43,7 @@ class Music extends StatelessWidget {
             ),
           ),
           Positioned(
-            top: 43,
+            top: 7.4.h,
             left: 22,
             child: TextCustom(
               size: 11.sp,
@@ -53,7 +53,7 @@ class Music extends StatelessWidget {
             ),
           ),
           Positioned(
-            top: 60,
+            top: 10.h,
             left: 10,
             child: SvgIcon(
               svgpath: path,

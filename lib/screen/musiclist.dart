@@ -37,7 +37,7 @@ class MusicList extends StatelessWidget {
                       left: 3.2.w,
                       top: 1.1.h,
                       child: TextCustom(
-                        size: 3.w.toDouble(),
+                        size: 10.sp,
                         color: Color(0xffAA1E4A),
                         text: 'Playing',
                         fontw: FontWeight.w600,
@@ -46,14 +46,14 @@ class MusicList extends StatelessWidget {
                     Positioned(
                       top: 0.8.h,
                       right: 1.w,
-                      child: const SvgIcon(
+                      child: SvgIcon(
                         svgpath: 'lib/assets/svg/love.svg',
-                        size: 10,
+                        size: 12.sp,
                       ),
                     ),
                     Positioned(
-                      top: 18,
-                      left: 25,
+                      top: 3.7.h,
+                      left: 8.w,
                       child: TextCustom(
                         size: 24.sp,
                         color: Colors.white,
@@ -62,8 +62,8 @@ class MusicList extends StatelessWidget {
                       ),
                     ),
                     Positioned(
-                      top: 43,
-                      left: 22,
+                      top: 7.4.h,
+                      left: 8.w,
                       child: TextCustom(
                         size: 11.sp,
                         color: Colors.white,
@@ -72,8 +72,8 @@ class MusicList extends StatelessWidget {
                       ),
                     ),
                     Positioned(
-                      top: 60,
-                      left: 10,
+                      top: 10.h,
+                      left: 4.w,
                       child: SvgIcon(
                         svgpath: 'lib/assets/svg/line.svg',
                         size: 70.sp,
